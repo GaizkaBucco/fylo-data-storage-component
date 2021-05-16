@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Fylo data storage component</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div id="logo-container">
+      <div id="logo"><img src="logo.svg" alt="Fylo Logo"></div>
+      <div id="icons-container">
+        <div id="file" class="icon-background"><img src="icon-document.svg" alt="document icon"></div>
+        <div id="folder" class="icon-background"><img src="icon-folder.svg" alt="folter icon"></div>
+        <div id="upload" class="icon-background"><img src="icon-upload.svg" alt="upload icon"></div>
+      </div>
+    </div>
+    
+    <div id="usage-container">
+      <div id="usage-title"><p>You've used <span>815GB</span> of your storage</p></div>
+      <div id="usage-bar">
+        <div id="space-left-indicator">
+          <span>185</span> <p>GB LEFT</p>
+        </div>
+        <div id="usage-bar-filled">
+          <div id="usage-bar-indicator"></div>
+        </div>
+      </div>
+      <div id="usage-description">
+        <div id="zero-usage"><p>0 GB</p></div>
+        <div id="full-usage"><p>1000 GB</p></div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
